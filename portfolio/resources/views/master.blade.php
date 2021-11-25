@@ -10,10 +10,10 @@
 <header>
     @include('header')
 </header>
-<body class="background">
+<body >
 
 
-<main role="main" class="container">
+<main role="main">
     @yield('main')
 </main>
 @include('footer')
