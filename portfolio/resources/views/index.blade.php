@@ -4,13 +4,16 @@
 
     <!---------------------------------------------------------------------------------------->
     <!--Présentation-->
+    <div id="background">
     <section id="presentation">
-        <div class="container">
+        <div class="container pt-5">
 
-            <div class="row ">
-                <div class="col-6 mb-5 pb-5 left">
-                    <h1>Ahmed Daoud</h1>
-                    <p class="desc">Etudiant en 2eme année de DUT informatique</p>
+            <div class="row pt-5">
+                <h1>Ahmed Daoud</h1>
+                <p class="desc-1">Etudiant en 2eme année de DUT informatique</p>
+                <div class="row">
+                    <p class="desc-2">Je m'appelle Ahmed Daoud je suis en Deuxième année de DUT informatique.
+                        Je suis actuellement à la recherche d'un stage.</p>
                     <div class="row pb-5">
                         <div class="col pb-5">
                             <button type="button" class="btn btn-outline-dark pr">Compétences</button>
@@ -19,15 +22,48 @@
                             <button type="button" class="btn btn-outline-dark">Projets</button>
                         </div>
                     </div>
-                    </div>
-                    <div class="col-1"></div>
-                        <div class="col-5 pt-4 right">
-                            <p class="desc">Je m'appelle Ahmed Daoud je suis en Deuxième année de DUT informatique.
-                                Je suis actuellement à la recherche d'un stage.</p>
-                        </div>
-            </div></div>
+                </div>
+            </div>
+        </div>
 
     </section>
+
+    <!---------------------------------------------------------------------------------------->
+    <!--Présentation-->
+        <section id="apropos">
+                <div class="container">
+                    <h2 class="section-heading" data-outline="about">About</h2>
+                    <div class="wrapper">
+                        <div class="left">
+                            <div class="card">
+                                <ul>
+                                    <li>
+                                        <span>Numéro de téléphone</span><br>
+                                        <p>07 82 65 66 91</p>
+                                    </li>
+                                    <li>
+                                        <span>Adresse mail</span><br>
+                                        <p>ahmed__daoud@outlook.fr</p>
+                                    </li>
+                                    <li>
+                                        <span>Localisation</span><br>
+                                        <p> 62640, Montigny-en-Gohelle</p>
+                                    </li>
+                                    <li>
+                                        <span>Mobilité</span><br>
+                                        <p> Permis B - Vehicule Personnel</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                            <img class="img" src="img/IMG_3297.jpg"/>
+                            </div>
+                    <div><p class="pt-5 para">Je suis étudiant de deuxième année de Diplôme Universitaire de Téchnologie en Informatique à l'IUT de Lens,
+                        Ce portfolio a pour but de me présenter ainsi que de vous montrer les différents projets scolaires et personnels.
+                            je suis actuellement à la recherche d'un stage de 10 semaines pour le 10 avril jusqu'au 11 juin.</p></div>
+                        </div>
+            </section>
+    <!---------------------------------------------------------------------------------------->
     <!--Compétences-->
     <section id="competence">
         <div class="container">
@@ -133,51 +169,40 @@
         </div>
     </section>
 
-    <!--Compétences-->
+    <!---------------------------------------------------------------------------------------->
+    <!--Formation-->
+
+<section id="formation">
+    <div class="container pt-5">
+        <h2 class="section-heading" data-outline="Formation">Formation</h2>
+            <div class="timeline">
+                <ul>
+                    <li>
+                        <div class="timeline-content">
+                            <h3 class="date">2020-2022</h3>
+                            <h1>DUT Informatique | Lens</h1>
+                            <p>J'étudie à l'IUT de Lens pour mon DUT informatique.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-content">
+                            <h3 class="date">2019-2020</h3>
+                            <h1>INSA | Centre Val de Loire</h1>
+                            <p>J'ai effectué une année à l'INSA Centre Val de Loire.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-content">
+                            <h3 class="date">2016-2019</h3>
+                            <h1>Lycée Louis Pasteur | Hénin Beaumont</h1>
+                            <p>J'ai obtenu mon Baccalauréat Scientifique options Mathématique Mention Assez Bien Européenne.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+    </div></section>
     <!---------------------------------------------------------------------------------------->
     <!--Projets-->
-
-
-    <div class="container">
-        <h2 class="section-heading" data-outline="Formation">Formation</h2>
-    <ul class="timeline">
-
-        <!-- Item 1 -->
-        <li>
-            <div class="direction-r">
-                <div class="flag-wrapper">
-                    <span class="flag">DUT Informatique</span>
-                    <span class="time-wrapper"><span class="time">2020 - 2022</span></span>
-                </div>
-                <div class="desc">J'effectue ma deuxième année de DUT informatique à l'IUT de Lens.</div>
-            </div>
-        </li>
-
-        <!-- Item 2 -->
-        <li>
-            <div class="direction-l">
-                <div class="flag-wrapper">
-                    <span class="flag">INSA Centre Val de loire</span>
-                    <span class="time-wrapper"><span class="time">2019 - 2020</span></span>
-                </div>
-                <div class="desc">Prépa intégrée à l'INSA Centre Val de Loire.</div>
-            </div>
-        </li>
-
-        <!-- Item 3 -->
-        <li>
-            <div class="direction-r">
-                <div class="flag-wrapper">
-                    <span class="flag">Lycée Louis Pasteur Henin Beaumont</span>
-                    <span class="time-wrapper"><span class="time">2016 - 2019</span></span>
-                </div>
-                <div class="desc">J'ai obtenu mon baccalauréat scientifique option maths mention assez bien et européenne.</div>
-            </div>
-        </li>
-
-    </ul>
-    </div>
-
     <section id="projects">
         <div class="container">
             <h2 class="section-heading" data-outline="Projects">Projects</h2>
@@ -189,21 +214,26 @@
                         </div>
                     </div>
                     <div class="right">
-                        <h2 class="project-title">Real Chat</h2>
-                        <h3 class="project-sub-title">Online real time chat app.</h3>
-                        <p class="project-desc">I made this application for a USA customer. This application is truly Amazing. Here
-                            you can chat with your friend
-                            constantly inside a secure environment and there will be no information reserved after the end of the
-                            session.</p>
-                        <div class="buttons">
-                            <a href="#" class="primary-btn">Know More</a>
-                            <a href="#" class="primary-btn outline external-link"> <span>Preview</span>
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                          d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                                </svg>
-                            </a>
+                        <h2 class="project-title">Projet APA | 2021 </h2>
+                        <p class="project-desc pt-3">Pour ce projet en Java, nous devions en équipe de deux
+                        utiliser Scanner et compter le nombre de mots dans un fichier, en utilisant différent méthodes
+                        telles que les tableaux, les liste chainées, les arbres binaires et les tables de hashages. </p>
+                        <img src="https://img.icons8.com/ios-glyphs/50/000000/github.png"/>
+
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="left">
+                        <div class="img">
+                            <img src="./image/project-1.jpg" alt="">
                         </div>
+                    </div>
+                    <div class="right">
+                        <h2 class="project-title">Technologie RFID | 2021</h2>
+                        <p class="project-desc pt-3">Pour cette recherche personnelle,
+                            j'ai utilisé une carte Arduino et un scanner RFID,
+                            pour voir les failles de cette technologie en scannant des cartes d'accès et badges d'immeubles.</p>
+                                <img src="https://img.icons8.com/ios-glyphs/50/000000/github.png"/>
 
                     </div>
                 </div>
@@ -214,24 +244,12 @@
                         </div>
                     </div>
                     <div class="right">
-                        <h2 class="project-title">Hotel Zaman Website
-                        </h2>
-                        <h3 class="project-sub-title">A website for hotel zaman.
-                        </h3>
-                        <p class="project-desc">Hotel zaman is one of the famous hotel in Chittagong. We created their website. The
-                            client wanted a clean and smooth
-                            design which I was able to provide at the end of the project.</p>
-                        <div class="buttons">
-                            <a href="#" class="primary-btn">Know More</a>
-                            <a href="#" class="primary-btn outline external-link"> <span>Preview</span>
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                          d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                                </svg>
-                            </a>
-                        </div>
+                        <h2 class="project-title">Projet S2 | 2021 </h2>
+                        <p class="project-desc pt-3">Elaboration d'un jeu de plateau, le labyrinthe en Java, en groupe de 4.</p>
+                        <img src="https://img.icons8.com/ios-glyphs/50/000000/github.png"/>
+
                     </div>
-                </div>
+                    </div>
                 <div class="item">
                     <div class="left">
                         <div class="img">
@@ -239,26 +257,52 @@
                         </div>
                     </div>
                     <div class="right">
-                        <h2 class="project-title">Prinazz Website</h2>
-                        <h3 class="project-sub-title">A website for music studio</h3>
-                        <p class="project-desc">Piranz is one of the famous music composer in UAE. The challenge was to keep the
-                            music environment in the web. It was
-                            hard but in the end
-                            we provided a good quality website that satisfied the client.</p>
-                        <div class="buttons">
-                            <a href="#" class="primary-btn">Know More</a>
-                            <a href="#" class="primary-btn outline external-link"> <span>Preview</span>
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                          d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                                </svg>
-                            </a>
-                        </div>
+                    <h2 class="project-title">Projet Sokoban | 2021 </h2>
+                    <p class="project-desc pt-3">Conception d'un jeu en Python, le Sokoban en modèle Model View Controller,
+                        en équipe de 4.</p>
+                    <img src="https://img.icons8.com/ios-glyphs/50/000000/github.png"/>
+
+                </div>
+                </div>
+        <div class="item">
+            <div class="left">
+                <div class="img">
+                    <img src="./image/project-2.jpg" alt="">
+                </div>
+            </div>
+           <div class="right">
+            <h2 class="project-title">Refont du site de l'IUT | 2020 </h2>
+            <p class="project-desc pt-3">Modification du site de
+                l'IUT en équipe de 3, dans les langages HTML et CSS avec l'utilisation du framework Bootstrap.</p>
+            <img src="https://img.icons8.com/ios-glyphs/50/000000/github.png"/>
+        </div>
+        </div>
+                </div>
+        </div>
+    </section>
+        <section id="loisir">
+            <div class="container">
+                <h2 class="section-heading" data-outline="loisirs">loisirs</h2>
+                <div class="all-items">
+                    <div class="item">
+                        <h3 class="stats-sub-heading">Musculation</h3>
+                        <img src="https://img.icons8.com/ios/100/000000/strength.png"/>
+                    </div>
+                    <div class="item">
+                        <h3 class="stats-sub-heading">Auditeur <br>de Rap & Rnb</h3>
+                        <img src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/100/000000/external-headset-advertising-kiranshastry-solid-kiranshastry.png"/>
+                    </div>
+                    <div class="item">
+                        <h3 class="stats-sub-heading">Lecteur <br>de comics et romans</h3>
+                        <img src="https://img.icons8.com/ios-filled/100/000000/book.png"/>
+                    </div>
+                    <div class="item">
+                        <h3 class="stats-sub-heading">Veille <br> sécurité informatique</h3>
+                        <img src="https://img.icons8.com/ios/100/000000/cyber-security.png"/>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 @endsection
 
 
