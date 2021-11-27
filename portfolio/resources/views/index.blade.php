@@ -16,10 +16,16 @@
                         Je suis actuellement à la recherche d'un stage.</p>
                     <div class="row pb-5">
                         <div class="col pb-5">
-                            <button type="button" class="btn btn-outline-dark pr">Compétences</button>
+                            <button type="button" class="btn btn-dark"><a href="#apropos">A propos</a></button>
                         </div>
                         <div class="col pb-5">
-                            <button type="button" class="btn btn-outline-dark">Projets</button>
+                            <button type="button" class="btn btn-dark"><a href="#competence">Compétences</a></button>
+                        </div>
+                        <div class="col pb-5">
+                            <button type="button" class="btn btn-dark"><a href="#formation">Formation</a></button>
+                        </div>
+                        <div class="col pb-5">
+                            <button type="button" class="btn btn-dark"><a href="#projects">Projets</a></button>
                         </div>
                     </div>
                 </div>
@@ -32,7 +38,7 @@
     <!--Présentation-->
         <section id="apropos">
                 <div class="container">
-                    <h2 class="section-heading" data-outline="about">About</h2>
+                    <h2 class="section-heading" data-outline="A propos">A propos</h2>
                     <div class="wrapper">
                         <div class="left">
                             <div class="card">
@@ -53,6 +59,9 @@
                                         <span>Mobilité</span><br>
                                         <p> Permis B - Vehicule Personnel</p>
                                     </li>
+                                    <li>
+                                        <button type="button" class="btn btn-outline-dark"><a href="pdf/CV.pdf">Mon Cv</a></button>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -61,6 +70,7 @@
                     <div><p class="pt-5 para">Je suis étudiant de deuxième année de Diplôme Universitaire de Téchnologie en Informatique à l'IUT de Lens,
                         Ce portfolio a pour but de me présenter ainsi que de vous montrer les différents projets scolaires et personnels.
                             je suis actuellement à la recherche d'un stage de 10 semaines pour le 10 avril jusqu'au 11 juin.</p></div>
+
                         </div>
             </section>
     <!---------------------------------------------------------------------------------------->
@@ -106,16 +116,6 @@
                     </div>
 
                 </div>
-                <div class="item">
-                    <div class="icon">
-                            <img class="img-fluid" src="https://img.icons8.com/color/68/000000/source-code.png"/>
-                    </div>
-                    <h3 class="item-heading">HTML/CSS</h3>
-                    <div class="progress">
-                        <div class="progress__bar"></div>
-                    </div>
-
-                </div>
             </div>
             <div class="all-items">
                 <div class="item">
@@ -155,6 +155,9 @@
                     </div>
 
                 </div>
+            </div>
+
+            <div class="all-items">
                 <div class="item">
                     <div class="icon">
                         <img src="https://img.icons8.com/stickers/35/000000/thin-client.png"/>
@@ -165,8 +168,36 @@
                     </div>
 
                 </div>
+                <div class="item">
+                    <div class="icon">
+                        <img class="img-fluid" src="https://img.icons8.com/color/68/000000/source-code.png"/>
+                    </div>
+                    <h3 class="item-heading">HTML/CSS</h3>
+                    <div class="progress">
+                        <div class="progress__bar"></div>
+                    </div>
+
+                </div>
+                <div class="item">
+                    <div class="icon">
+                        <img class="img-fluid" src="img/jetbrains.png"/>
+                    </div>
+                    <h3 class="item-heading">Jetbrains</h3>
+                    <div class="progress">
+                        <div class="progress__bar"></div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="icon">
+                        <img class="img-fluid" src="https://img.icons8.com/color/68/000000/kali-linux.png"/>
+                    </div>
+                    <h3 class="item-heading">Kali Linux</h3>
+                    <div class="progress">
+                        <div class="progress__bar"></div>
+                    </div>
+                </div>
             </div>
-        </div>
+            </div>
     </section>
 
     <!---------------------------------------------------------------------------------------->
@@ -225,7 +256,9 @@
                 <div class="item">
                     <div class="left">
                         <div class="img">
-                            <img src="./image/project-1.jpg" alt="">
+                            <video controls>
+                                <source src="/img/Apex1.mp4" type=video/mp4>
+                            </video>
                         </div>
                     </div>
                     <div class="right">
@@ -240,7 +273,9 @@
                 <div class="item">
                     <div class="left">
                         <div class="img">
-                            <img src="./image/project-3.jpg" alt="">
+                            <video controls>
+                                <source src="/img/Apex4.mp4" type=video/mp4>
+                            </video>
                         </div>
                     </div>
                     <div class="right">
@@ -253,7 +288,9 @@
                 <div class="item">
                     <div class="left">
                         <div class="img">
-                            <img src="./image/project-2.jpg" alt="">
+                            <video controls>
+                                <source src="/img/Apex2.mp4" type=video/mp4>
+                            </video>
                         </div>
                     </div>
                     <div class="right">
@@ -267,7 +304,9 @@
         <div class="item">
             <div class="left">
                 <div class="img">
-                    <img src="./image/project-2.jpg" alt="">
+                    <video controls>
+                        <source src="/img/Apex3.mp4" type=video/mp4>
+                    </video>
                 </div>
             </div>
            <div class="right">
@@ -303,6 +342,7 @@
                 </div>
             </div>
         </section>
+    </div>
 @endsection
 
 

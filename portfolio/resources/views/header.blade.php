@@ -4,16 +4,16 @@
 
         <ul class="navbar-nav mr-auto" id="aligner">
             <li class="nav-item">
-                <a class="nav-link active " aria-current="page" href="#">A propos</a>
+                <a class="nav-link active " aria-current="page" href="#apropos">A propos</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link active " href="#">Mes compétences</a>
+                <a class="nav-link active " href="#competence">Mes compétences</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link active " aria-current="page" href="#">Formation</a>
+                <a class="nav-link active " aria-current="page" href="#formation">Formation</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link active " aria-current="page" href="#">Projets</a>
+                <a class="nav-link active " aria-current="page" href="#projects">Projets</a>
             </li>
         </ul>
 
