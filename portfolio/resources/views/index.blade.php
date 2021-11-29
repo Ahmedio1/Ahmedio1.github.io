@@ -65,7 +65,7 @@
                                 </ul>
                             </div>
                         </div>
-                            <img class="img" src="img/IMG_3297.jpg"/>
+                            <img class="img" src="img/Ahmed.JPEG"/>
                             </div>
                     <div><p class="pt-5 para">Je suis étudiant de deuxième année de Diplôme Universitaire de Téchnologie en Informatique à l'IUT de Lens,
                         Ce portfolio a pour but de me présenter ainsi que de vous montrer les différents projets scolaires et personnels.
@@ -85,16 +85,16 @@
                     </div>
                     <h3 class="item-heading">Java</h3>
                     <div class="progress">
-                        <div class="progress__bar"></div>
+                        <div class="progress__bar" style="width: 90%"></div>
                     </div>
                 </div>
                 <div class="item">
                     <div class="icon">
                         <img class="img-fluid" src="https://img.icons8.com/dusk/64/000000/php-logo.png"/>
                     </div>
-                    <h3 class="item-heading">PHP</h3>
+                    <h3 class="item-heading" >PHP</h3>
                     <div class="progress">
-                        <div class="progress__bar"></div>
+                        <div class="progress__bar" style="width: 70%"></div>
                     </div>
                 </div>
                 <div class="item">
@@ -103,7 +103,7 @@
                     </div>
                     <h3 class="item-heading">Python</h3>
                     <div class="progress">
-                        <div class="progress__bar"></div>
+                        <div class="progress__bar" style="width: 80%"></div>
                     </div>
                 </div>
                 <div class="item">
@@ -112,7 +112,7 @@
                     </div>
                     <h3 class="item-heading">PSQL</h3>
                     <div class="progress">
-                        <div class="progress__bar"></div>
+                        <div class="progress__bar" style="width: 95%"></div>
                     </div>
 
                 </div>
@@ -124,7 +124,7 @@
                     </div>
                     <h3 class="item-heading">Laravel</h3>
                     <div class="progress">
-                        <div class="progress__bar"></div>
+                        <div class="progress__bar" style="width: 75%"></div>
                     </div>
                 </div>
                 <div class="item">
@@ -133,7 +133,7 @@
                     </div>
                     <h3 class="item-heading">Bootstrap</h3>
                     <div class="progress">
-                        <div class="progress__bar"></div>
+                        <div class="progress__bar" style="width: 70%"></div>
                     </div>
                 </div>
                 <div class="item">
@@ -142,7 +142,7 @@
                     </div>
                     <h3 class="item-heading">GIT</h3>
                     <div class="progress">
-                        <div class="progress__bar"></div>
+                        <div class="progress__bar" style="width: 100%"></div>
                     </div>
                 </div>
                 <div class="item">
@@ -151,7 +151,7 @@
                     </div>
                     <h3 class="item-heading">Linux</h3>
                     <div class="progress">
-                        <div class="progress__bar"></div>
+                        <div class="progress__bar" style="width:80%"></div>
                     </div>
 
                 </div>
@@ -162,9 +162,9 @@
                     <div class="icon">
                         <img src="https://img.icons8.com/stickers/35/000000/thin-client.png"/>
                     </div>
-                    <h3 class="item-heading">Réseaux</h3>
+                    <h3 class="item-heading" >Réseaux</h3>
                     <div class="progress">
-                        <div class="progress__bar"></div>
+                        <div class="progress__bar" style="width: 75%"></div>
                     </div>
 
                 </div>
@@ -174,7 +174,7 @@
                     </div>
                     <h3 class="item-heading">HTML/CSS</h3>
                     <div class="progress">
-                        <div class="progress__bar"></div>
+                        <div class="progress__bar" style="width: 90%"></div>
                     </div>
 
                 </div>
@@ -184,7 +184,7 @@
                     </div>
                     <h3 class="item-heading">Jetbrains</h3>
                     <div class="progress">
-                        <div class="progress__bar"></div>
+                        <div class="progress__bar" style="width: 76%"></div>
                     </div>
                 </div>
                 <div class="item">
@@ -193,7 +193,7 @@
                     </div>
                     <h3 class="item-heading">Kali Linux</h3>
                     <div class="progress">
-                        <div class="progress__bar"></div>
+                        <div class="progress__bar" style="width: 60%"></div>
                     </div>
                 </div>
             </div>
@@ -204,7 +204,7 @@
     <!--Formation-->
 
 <section id="formation">
-    <div class="container pt-5">
+    <div class="container ">
         <h2 class="section-heading" data-outline="Formation">Formation</h2>
             <div class="timeline">
                 <ul>
@@ -235,13 +235,13 @@
     <!---------------------------------------------------------------------------------------->
     <!--Projets-->
     <section id="projects">
-        <div class="container">
-            <h2 class="section-heading" data-outline="Projects">Projects</h2>
+        <div class="container flex">
+            <h2 class="section-heading" data-outline="Projets">Projets</h2>
             <div class="all-items">
                 <div class="item">
                     <div class="left">
                         <div class="img">
-                            <img src="./image/project-1.jpg" alt="">
+                            <img src="/img/code.jpg" width=100% height=100% alt="">
                         </div>
                     </div>
                     <div class="right">
@@ -249,16 +249,14 @@
                         <p class="project-desc pt-3">Pour ce projet en Java, nous devions en équipe de deux
                         utiliser Scanner et compter le nombre de mots dans un fichier, en utilisant différent méthodes
                         telles que les tableaux, les liste chainées, les arbres binaires et les tables de hashages. </p>
-                        <img src="https://img.icons8.com/ios-glyphs/50/000000/github.png"/>
+                        <a href="https://github.com/Ahmedio1/ProjetAPA"><img src="https://img.icons8.com/ios-glyphs/50/000000/github.png"/></a>
 
                     </div>
                 </div>
                 <div class="item">
                     <div class="left">
                         <div class="img">
-                            <video controls>
-                                <source src="/img/Apex1.mp4" type=video/mp4>
-                            </video>
+                            <img src="/img/arduino.jpg" width=100% height=100% alt="">
                         </div>
                     </div>
                     <div class="right">
@@ -266,54 +264,50 @@
                         <p class="project-desc pt-3">Pour cette recherche personnelle,
                             j'ai utilisé une carte Arduino et un scanner RFID,
                             pour voir les failles de cette technologie en scannant des cartes d'accès et badges d'immeubles.</p>
-                                <img src="https://img.icons8.com/ios-glyphs/50/000000/github.png"/>
+                               <a href="https://github.com/Ahmedio1/Arduino.git"> <img src="https://img.icons8.com/ios-glyphs/50/000000/github.png"/></a>
 
                     </div>
                 </div>
                 <div class="item">
                     <div class="left">
                         <div class="img">
-                            <video controls>
-                                <source src="/img/Apex4.mp4" type=video/mp4>
-                            </video>
+                            <img src="/img/ProjetS2.png" width=100% height=100% alt="">
                         </div>
                     </div>
                     <div class="right">
                         <h2 class="project-title">Projet S2 | 2021 </h2>
                         <p class="project-desc pt-3">Elaboration d'un jeu de plateau, le labyrinthe en Java, en groupe de 4.</p>
-                        <img src="https://img.icons8.com/ios-glyphs/50/000000/github.png"/>
+                        <a href="https://github.com/Ahmedio1/Projet-S2"><img src="https://img.icons8.com/ios-glyphs/50/000000/github.png"/></a>
 
                     </div>
                     </div>
                 <div class="item">
                     <div class="left">
                         <div class="img">
-                            <video controls>
-                                <source src="/img/Apex2.mp4" type=video/mp4>
-                            </video>
+                            <div class="img">
+                                <img src="/img/ProjetSokoban.png" width=100% height=100% alt="">
+                            </div>
                         </div>
                     </div>
                     <div class="right">
                     <h2 class="project-title">Projet Sokoban | 2021 </h2>
                     <p class="project-desc pt-3">Conception d'un jeu en Python, le Sokoban en modèle Model View Controller,
                         en équipe de 4.</p>
-                    <img src="https://img.icons8.com/ios-glyphs/50/000000/github.png"/>
+                    <a href="https://github.com/Ahmedio1/Projet-IHM"><img src="https://img.icons8.com/ios-glyphs/50/000000/github.png"/></a>
 
                 </div>
                 </div>
         <div class="item">
             <div class="left">
                 <div class="img">
-                    <video controls>
-                        <source src="/img/Apex3.mp4" type=video/mp4>
-                    </video>
+                    <img src="/img/Projet1.png" width=100% height=100% alt="">
                 </div>
             </div>
            <div class="right">
             <h2 class="project-title">Refont du site de l'IUT | 2020 </h2>
             <p class="project-desc pt-3">Modification du site de
                 l'IUT en équipe de 3, dans les langages HTML et CSS avec l'utilisation du framework Bootstrap.</p>
-            <img src="https://img.icons8.com/ios-glyphs/50/000000/github.png"/>
+               <a href="https://github.com/Ahmedio1/ProjetS1"><img src="https://img.icons8.com/ios-glyphs/50/000000/github.png"/></a>
         </div>
         </div>
                 </div>
